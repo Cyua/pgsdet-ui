@@ -1,6 +1,6 @@
 <template>
     <p class="myClass">This is a sample</p>
-    <el-button>我是一个按钮</el-button>
+    <el-button>elementUI Button</el-button>
 </template>
 
 <script>

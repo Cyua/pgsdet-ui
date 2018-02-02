@@ -1,5 +1,6 @@
 // import your component here
 import Sample from "../packages/sample/index";
+import elementUI from "elementUI"
 
 // add your component into the components
 const components = [
@@ -11,6 +12,7 @@ const install = function(Vue, opts = {}){
   components.map(component => {
     Vue.component(component.name, component);
   });
+  Vue.use(elementUI);
 };
 
 
