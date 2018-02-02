@@ -1,7 +1,7 @@
 {
   "name": "pgsdet-ui",
   "description": "Pangu Sdet vue ui components lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "cyua <yuqb@foxmail.com>",
   "license": "MIT",
   "private": false,
