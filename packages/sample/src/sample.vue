@@ -1,5 +1,5 @@
 <template>
-    <p>This is a sample</p>
+    <p class="myClass">This is a sample</p>
 </template>
 
 <script>
@@ -9,5 +9,7 @@
 </script>
 
 <style scoped>
-
+.myClass{
+  color: #ddd;
+}
 </style>

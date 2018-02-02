@@ -1,6 +1,7 @@
+// import your component here
 import Sample from "../packages/sample/index";
 
-
+// add your component into the components
 const components = [
   Sample,
 ];
@@ -17,10 +18,12 @@ if (typeof window !== "undefined" && window.Vue){
   install(window.Vue)
 }
 
-
-module.exports = {
+const PgSdetUI = {
   install,
-  Sample,
 };
 
-module.exports.default = module.exports;
+for(let component in components){
+  Object.assign(PgSdetUI, {component})
+}
+
+export default PgSdetUI;
