@@ -6,9 +6,6 @@
 <script>
     export default {
         name: "sample",
-        component: {
-          ElementUI,
-        }
     }
 </script>
 
