@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="myClass">This is a sample</p>
-    <Button>elementUI Button</Button>
+    <Button type="primary" plain>elementUI Button</Button>
   </div>
 </template>
 
