@@ -2,11 +2,22 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: 'pgsdet-ui.js',
+    library: "pgsdet-ui",
+    libraryTarget: "umd",
+    umdNamedDefine: true
+  },
+  externals: {
+    vue: {
+      root: "Vue",
+      commonjs: "vue",
+      commonjs2: "vue",
+      amd: "vue"
+    }
   },
   module: {
     rules: [
