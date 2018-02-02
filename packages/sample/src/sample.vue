@@ -1,6 +1,8 @@
 <template>
+  <div>
     <p class="myClass">This is a sample</p>
     <el-button>elementUI Button</el-button>
+  </div>
 </template>
 
 <script>
