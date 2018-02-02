@@ -5,7 +5,10 @@
 
 <script>
     export default {
-        name: "sample"
+        name: "sample",
+        component: {
+          ElementUI,
+        }
     }
 </script>
 
