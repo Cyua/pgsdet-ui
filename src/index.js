@@ -1,4 +1,5 @@
 // import your component here
+import 'element-ui/lib/theme-chalk/index.css'
 import Sample from "../packages/sample/index";
 
 // add your component into the components
